@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Form1</title>
+</head>
+
+<body>
+
+    <form name="f1" action="mysevrlet1" method="get">
+        <h2>Registration Form</h2>
+        <table align="left" cellspacing="8px" cellpadding="5px">
+            <tr>
+                <td>
+                    <label for="id1">First Name</label>
+                    <br>
+                    <input type="text" name="n1" id="id1" placeholder="type name here" >
+                </td>
+                <td>
+                    <label for="id2">Last Name</label>
+                    <br>
+                    <input type="text" name="n2" id="id2" placeholder="type name here" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id3">Birthday</label>
+                    <br>
+                    <input type="date"  name="n3" id="id3" placeholder="type date here" required>
+                </td>
+                <td>
+                    <label for="id41">Gender</label>
+                    <br>
+                    <input type="radio" name="Gender" id="id41" value="Male" required>Male
+                    <input type="radio" name="Gender" id="id41" value="Female" required>Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id5">Email</label>
+                    <br>
+                    <input type="email" name="n5" id="id5" placeholder="type email here" required>
+                </td>
+                <td>
+                    <label for="id6">Phone no</label>
+                    <br>
+                    <input type="number" name="n6" id="id6" placeholder="type number here" required>
+    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id71">Subject</label>
+                    <br>
+                    <select>
+                        <option value="HTML" name="n7" id="id71">HTML</option>
+                        <option value="CSS" name="n7" id="id72">CSS</option>
+                        <option value="JavaScript" name="n7" id="id73">JavaScript</option>
+                        <option value="Python" name="n7" id="id74">Python</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="n8" id="id8" required>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
